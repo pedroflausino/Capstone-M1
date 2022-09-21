@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>E-commerce</title>
+</head>
+<body>
+    <header class="header">
+        <img id="img-header" src="https://pbs.twimg.com/profile_images/1218257427264655361/Uc5S9Nvu_400x400.jpg" alt="Logo">
+        <nav class="section-header">
+            <div class="div-header"><p id="p-strong">Tudo</p></div>
+            <div class="div-header">Hardware</div>
+            <div class="div-header">Acessórios</div>
+            <div class="div-header">Periféricos</div>
+        </nav>
+    </header>
+    <main id="products-and-cart">
+        <section id="block-products">
+            <ul id="list-products">
+                <!--<li class="product"> 
+                    <img src="https://m.media-amazon.com/images/I/618kg85zIxL._AC_SY450_.jpg" alt="kumara">
+                    <span class="categoria">Periférico</span>
+                    <h2>Teclado Kumara</h2>
+                    <p>Teclado mecânico swich red Kumara RGB</p>
+                    <span>R$249,90</span>
+                    <a href="">Adicionar ao carrinho</a>
+                </li>
+                <li class="product">
+                    <img src="https://i.zst.com.br/thumbs/12/2b/38/1117228704.jpg" alt="Monitor Acer">
+                    <span class="categoria">Acessórios</span>
+                    <h2>Monitor Acer A34fT</h2>
+                    <p>Monitor 244Hz perfeito para jogos de fps, suporta até 4K</p>
+                    <span>R$2490,90</span>
+                    <a href="">Adicionar ao carrinho</a>
+                </li>
+                <li class="product">
+                    <img src="https://s2.glbimg.com/6UsmxV5EFSH54mJO_c-8z23wVSQ=/0x0:695x397/984x0/smart/filters:strip_icc()/i
+                    .s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/m/n/fns5pvQ22BBBmQISONWw/razer-deathadder-color.jpg" alt="Dethadder">
+                    <span class="categoria">Periférico</span>
+                    <h2>Mouse Razer Dethadder</h2>
+                    <p>Dethadder 10.000DPI com softwre e controle de RGB</p>
+                    <span>R$299,90</span>
+                    <a href="">Adicionar ao carrinho</a>
+                </li>
+                <li class="product">
+                    <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-shop-630-d@2x.png" alt="3090Ti">
+                    <span class="categoria">Hardware</span>
+                    <h2>Nvidia 3090Ti</h2>
+                    <p>Suporta até 8K 60FPS mais nova tecnologia do mercado</p>
+                    <span>R$6.990,90</span>
+                    <a href="">Adicionar ao carrinho</a>
+                </li>
+                <li class="product">
+                    <img src="https://cdn.awsli.com.br/600x450/240/240197/produto/22345665/ba124b888c.jpg" alt="Asus Strix">
+                    <span class="categoria">Hardware</span>
+                    <h2>Placa mãe Asus Rog Strix</h2>
+                    <p>Placa mãe chipset 1151, com USB 3.5 e slot SSD</p>
+                    <span>R$749,90</span>
+                    <a href="">Adicionar ao carrinho</a>
+                </li>
+                <li class="product">
+                    <img src="https://www.lenovo.com/medias/S145-BR-4.png?context=bWFzdGVyfHJvb3R8MTQwMjExfGlt
+                    YWdlL3BuZ3xoYzEvaDAzLzEwNTE1NjM4ODQ1NDcwLnBuZ3w4ODNhYTIwNWYzMmMwYmM3ODk2ZTYwZjMxNTYyYTI1NGUyNDJlMWNlN2MzNjgwYWI4MmMxOWQ0N2RlMGMxZTZk" alt="">
+                    <span class="categoria">Acessórios</span>
+                    <h2>NoteBook Lenovo S145</h2>
+                    <p>i7 de 10ª geração, 8GB de RAM</p>
+                    <span>R$4999,90</span>
+                    <a href="">Adicionar ao carrinho</a>
+                </li>  -->
+            </ul>
+        </section>
+        <section id="search-cart">
+            <input type="text" id="search" placeholder="Digite aqui sua pesquisa">
+            <button id="button">Pesquisar</button>
+            <h3 id="cart">Carrinho de compras</h3>
+            <div id="block-cart-empty">  <!--Essa classe vai variar se tem produtos ou não-->
+                <div id="produtos-do-carrinho">
+                    <div id="carrinho-vazio">
+                        <h3>Carrinho vazio</h3>
+                        <p>adicione itens</p>
+                    </div>
+                </div>
+                <!--
+                <div id="produtos-do-carrinho">
+                    <div class="adicionar-produtos-aqui">
+                        <div class="product-cart">
+                            <div id="cart-img">
+                                <img src="https://m.media-amazon.com/images/I/618kg85zIxL._AC_SY450_.jpg" alt="">
+                            </div>
+                            <div id="info-cart">
+                                <h3>Nome do produto</h3>
+                                <span>R$ 123,00</span>
+                                <p>Remover produto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+            <div id="bloco-total">
+                <!--
+                <div id="total">
+                    <div id="qtd-total">
+                        <p>Quantidade:</p>
+                        <p>Total:</p>
+                    </div>
+                    <div id="qtd-total-values">
+                        <p>1</p>
+                        <p>R$123,00</p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/arrayProdutos.js"></script>
+    <script src="assets/js/criacaoProdutos.js"></script>
+    <script src="assets/js/filter.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/filterPesquisar.js"></script>
+</body>
+</html>
